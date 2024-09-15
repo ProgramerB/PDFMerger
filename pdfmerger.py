@@ -16,11 +16,8 @@ parser.add_argument('-c', '--current_path',help='Use saved path var -> default_p
 
 args=parser.parse_args()
 
-print (os.getcwd())
-print(str(Path.home() / "Downloads"))
-print(Path(os.environ['USERPROFILE']) / 'Downloads')
-print(args.current_path)
-
+# print(str(Path.home() / "Downloads"))
+# print(Path(os.environ['USERPROFILE']) / 'Downloads')
 
 default_path = 'D:\\Users\\Bhavish\\Downloads\\'
 
