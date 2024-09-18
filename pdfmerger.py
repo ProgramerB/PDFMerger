@@ -1,7 +1,7 @@
 from pypdf import PdfWriter
 import argparse
 import os
-from pathlib import Path
+# from pathlib import Path
 parser=argparse.ArgumentParser(description='''
                                Script to append pdf files, \n\t 
                                
@@ -56,4 +56,3 @@ except Exception as e:
 
 finally:
     writer.close()
-
